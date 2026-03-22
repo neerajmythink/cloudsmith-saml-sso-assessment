@@ -3,8 +3,6 @@ This repository provides a comprehensive guide for integrating Cloudsmith with O
 
 ## Task 1: Set up SSO with OKTA
 
-![image.png](attachment:a8a039d5-c447-4309-93d7-77ae3c0c1e8f:image.png)
-
 This guide walks you through setting up Okta as a SAML identity provider (IdP) for your Cloudsmith organization. It enables secure Single Sign-On (SSO), allowing users to access Cloudsmith using credentials managed by trusted providers like Okta. With SSO in place, authentication and authorization are handled externally, and Cloudsmith validates user identity by relying on these providers, delivering a smooth and secure login experience.
 
 ---
@@ -250,8 +248,6 @@ User → Access Cloudsmith
 | **MFA (Multi-Factor Authentication)** | Additional verification layer (e.g., Okta Verify). |
 
 # Troubleshooting Guide
-
-![image.png](attachment:8284c098-9756-4771-b77d-48134b5ad6d2:image.png)
 
 1. **“Authentication error received: FirstName attribute not provided by Identity Provider”** during login
     - This occurs when required attributes are missing from the SAML response.
