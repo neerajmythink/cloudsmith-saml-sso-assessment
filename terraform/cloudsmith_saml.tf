@@ -1,4 +1,4 @@
-# Configure the Cloudsmith provider and create repositories, teams, service accounts, privileges, Geo/IP rules, and vulnerability policies as per the requirements.
+# Configure the Cloudsmith provider and set up SAML authentication and group-based access control using Terraform.
 terraform {
   required_providers {
     cloudsmith = {
